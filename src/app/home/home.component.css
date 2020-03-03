@@ -1,0 +1,36 @@
+.head-line {
+  margin-top: 50px;
+}
+
+  .head-line h1 {
+    font-size: 70px;
+  }
+
+.home-container {
+  padding-bottom: 40px;
+}
+
+.introduction-container {
+  text-align: center;
+  margin: 50px auto;
+  width: 60%;
+}
+
+.welcome-text {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.home-button {
+  margin: 5px 20px;
+}
+
+@media screen and (max-width: 425px) {
+  .head-line h1 {
+    font-size: 50px;
+  }
+
+  .head-line h2 {
+    font-size: 25px;
+  }
+}

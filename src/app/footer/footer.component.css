@@ -1,0 +1,20 @@
+footer{
+  position: relative;
+  bottom: 0;
+  height: 24px;
+  margin:0;
+}
+
+row{
+  width: 100% !important;
+  margin:0 !important;
+}
+
+#footer-copyright{
+  color: white;
+  margin: 10px;
+}
+
+i{
+  margin: 5px 10px;
+}

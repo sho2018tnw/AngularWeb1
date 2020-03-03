@@ -1,0 +1,43 @@
+<div id="nav-bar-container" class="container fade">
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<button class="navbar-toggler" type="button" (click)="toggleNav()">
+      			<span class="navbar-toggler-icon"></span>
+    		</button>
+
+
+    		<div class="collapse navbar-collapse" id="navbarSupportedContent" [class.show]="isExpanded" >    			
+    		<ul class="navbar-nav mr-auto">
+    			<li class="nav-item" [class.active]="languageService.activePage == 0" >
+  					<a class="nav-link" routerLink="/" [innerHTML]="languageService.displayIsEnglish ? 'Home' : 'ホーム'" ></a>
+  				</li>
+  				<li class="nav-item" [class.active]="languageService.activePage == 1" >
+  					<a class="nav-link" routerLink="/portfolio" [innerHTML]="languageService.displayIsEnglish ? 'Portfolio' : 'ポートフォリオ'" ></a>
+  				</li>
+  				<li class="nav-item" [class.active]="languageService.activePage == 2" >
+  					<a class="nav-link" routerLink="/about" [innerHTML]="languageService.displayIsEnglish ? 'About' : '自己紹介'" ></a>
+  				</li>
+  				<li class="nav-item" [class.active]="languageService.activePage == 3" >
+  					<a class="nav-link" routerLink="/contact" [innerHTML]="languageService.displayIsEnglish ? 'Contact' : '連絡'" ></a>
+  				</li>
+			</ul>
+			</div>
+
+		<!-- pull right -->
+		<ul class="navbar-nav ml-auto" id="language-bar">
+        <li class="nav-item language-item ">
+          <a class="nav-link" (click)="switchToEnglish()" >
+            <img class="language-change darken" src="https://res.cloudinary.com/knallcloud/image/upload/c_scale,q_100,w_100/v1539613553/Flags/FlagEnglish.jpg">
+          </a>
+        </li>
+        <li class="nav-item language-item ">
+          <a class="nav-link" (click)="switchToJapanese()" >
+            <img class="language-change darken" src="https://res.cloudinary.com/knallcloud/image/upload/c_scale,q_100,w_100/v1539613553/Flags/FlagJapan.jpg">
+          </a>
+        </li>
+        
+      </ul>	
+      </nav>
+	<div>
+		<span class="horizontal-line"></span>
+	</div>
+</div>

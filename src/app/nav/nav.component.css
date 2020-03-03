@@ -1,0 +1,17 @@
+.language-item{
+  padding: 8px !important;
+}
+.language-change{
+  width: 50px;
+}
+
+.language-change:hover{
+  cursor: pointer;
+}
+#language-bar{
+  flex-direction: row !important;
+}
+
+#nav-bar-container{
+  margin-bottom: 20px;
+}
