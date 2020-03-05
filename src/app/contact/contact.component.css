@@ -1,0 +1,14 @@
+.mail-address {
+  font-weight: 600;
+  font-size: 30px;
+  font-size: 3.0vw;
+}
+
+.contact-anchor:before {
+  content: '\A';
+  white-space: pre;
+}
+
+i {
+  margin: 10px 0;
+}

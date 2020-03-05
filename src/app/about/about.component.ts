@@ -17,7 +17,7 @@ export class AboutComponent implements OnInit {
       headerEN: "Passion for Programming",
       headerJP:"プログラミングに熱情",
       imgPath: "https://res.cloudinary.com/dpuggdmgx/image/upload/v1583311019/portfolio%20website/about/QQ%E6%88%AA%E5%9B%BE20200304173602_vtkba9.jpg",
-      paragraphEN: "As a student who is studying Game Programming at Tokyo Net Wave and will be graduate in March 2020.Learning <strong> C#,C++,Unity,Unreal Engine </strong> has given me ability to create games and applications,also learing <strong> HTML,CSS,JavaScript,Node.js </strong> give me passion to learn backend development and framework such as <strong>Ruby on Rails,Angular</strong> so i can focus on game programming and full-stack web development.",
+      paragraphEN: "As a student who is studying Game Programming in Tokyo and will be graduate in March 2020.Learning <strong> C#,C++,Unity,Unreal Engine </strong> has given me ability to create games and applications,also learing <strong> HTML,CSS,JavaScript,Node.js </strong> give me passion to learn backend development and framework such as <strong>Ruby on Rails,Angular</strong> so i can focus on game programming and full-stack web development.",
       paragraphJP:"東京ネットウエイブ　ゲームプログラマー専攻の学生にとって、在学中学校でC#, C++, PHP, Unity, Unreal Engineなどを学んでいるよりゲームを作れるようになりました。そしてHTML,CSS,JavaScript,Node.jsなどフロントエンド言語を勉強したのでバックエンドにも興味があって、フルスタックエンジニアになるため独学でバックエンドとフレームワークも勉強している。",
     },
     {

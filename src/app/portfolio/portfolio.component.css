@@ -1,0 +1,100 @@
+.product-top-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.alignment-helper {
+  width: 10%;
+}
+
+.member-amount-badge {
+  position: absolute;
+  right: 30px;
+  top: 0px;
+  margin-top: 5px;
+  color: white;
+  width: 90px;
+  height: 40px;
+  border-radius: 3px;
+  border: 0px;
+}
+
+.solo-tag {
+  background-color: #6ba4ff;
+}
+
+.group-tag {
+  background-color: #6d8c3e;
+}
+
+.company-tag {
+  background-color: #816bff;
+}
+
+.portfolio-thumbnail {
+  width: 512px;
+  max-width: 90%;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.portfolio-intro-text {
+  color: white;
+  margin: 20px;
+}
+
+.category-button-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.category-button {
+  margin: 10px;
+}
+
+.product-name {
+  margin: 5px;
+}
+
+.tool-logos {
+  margin: 10px;
+}
+
+.tool-logo {
+  height: 60px;
+  margin: 5px 10px;
+}
+
+.action-links {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-bottom: 10px;
+}
+
+.external-link {
+  margin: 10px 20px;
+}
+
+.link-image {
+  width: 200px;
+  margin: 10px;
+}
+
+.product-ruler {
+  width: 90%;
+  height: 6px;
+  background: url(https://res.cloudinary.com/knallcloud/image/upload/v1539696648/hr-11.png) repeat-x 0 0;
+  border: 0;
+}
+
+@media (max-width: 770px) {
+  .member-amount-badge {
+    position: static;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+}
