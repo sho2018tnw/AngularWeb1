@@ -11,6 +11,7 @@ export class PortfolioComponent implements OnInit {
 
   constructor(public languageService: LanguageService) { }
 
+
   ngOnInit() {
     this.languageService.activePage = 1;
   }
