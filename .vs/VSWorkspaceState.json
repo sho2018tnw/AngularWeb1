@@ -3,9 +3,12 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\contact",
-    "\\src\\app\\portfolio"
+    "\\src\\app\\about",
+    "\\src\\app\\home",
+    "\\src\\app\\models",
+    "\\src\\app\\portfolio",
+    "\\src\\app\\services"
   ],
-  "SelectedNode": "\\src\\app\\nav",
+  "SelectedNode": "\\src\\app\\app.module.ts",
   "PreviewInSolutionExplorer": false
 }

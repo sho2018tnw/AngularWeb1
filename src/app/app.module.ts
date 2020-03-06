@@ -9,7 +9,7 @@ import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 
-//import { ProductService } from '../services/product.service';
+import { ProductService } from 'src/app/services/product.service';
 import { LanguageService } from 'src/app/services/language.service';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
@@ -35,7 +35,7 @@ import { AboutComponent } from './about/about.component';
     ])
   ],
   providers: [
-    //ProductService,
+    ProductService,
     LanguageService,
     //SeoService
   ],
