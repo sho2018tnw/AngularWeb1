@@ -145,7 +145,7 @@ export class ProductService {
       this.thumbnailpath[1], this.introTextEN[1], this.introTextJP[1],
       [this.toolLogos[0], this.toolLogos[1]],
       [this.actionButtons[2]],
-      this.projectTags[1],
+      this.projectTags[0],
     ),
 
     new Product(
